@@ -17,4 +17,6 @@ public class RegistrosActivity extends AppCompatActivity {
     public void agente(View view){startActivity(new Intent(this, AgenteActivity.class));}
 
     public void solicitante(View view){startActivity(new Intent(this, SolicitanteActivity.class));}
+
+    //hola
 }

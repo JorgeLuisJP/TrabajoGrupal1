@@ -5,32 +5,38 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".AgenteActivity">
+    tools:context=".SesionActivity">
 
 
     <TextView
-        android:id="@+id/imageView3"
+        android:id="@+id/textView17"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        app:srcCompat="@drawable/baseline_arrow_back_24" />
+        android:text="" />
 
     <TextView
-        android:id="@+id/textView8"
+        android:id="@+id/textView18"
         android:layout_width="match_parent"
-        android:layout_height="60dp"
+        android:layout_height="wrap_content"
         android:gravity="center"
         android:textSize="20dp"
         android:textStyle="bold"
-        android:text="Registrar nuevo agente" />
+        android:text="Inicio de sesion" />
 
     <TextView
-        android:id="@+id/textView9"
+        android:id="@+id/textView19"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Numero de celular" />
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Numero de celular:" />
 
     <EditText
-        android:id="@+id/textView10"
+        android:id="@+id/textView21"
         android:layout_width="match_parent"
         android:layout_height="62dp"
         android:ems="10"
@@ -38,13 +44,19 @@
         android:inputType="phone" />
 
     <TextView
-        android:id="@+id/textView11"
+        android:id="@+id/textView22"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Contraseña" />
+        android:text="" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contraseña:" />
 
     <EditText
-        android:id="@+id/textView12"
+        android:id="@+id/textView24"
         android:layout_width="match_parent"
         android:layout_height="52dp"
         android:ems="10"
@@ -52,15 +64,14 @@
         android:inputType="textPassword" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/button8"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Registrar" />
+        android:text="Ingresar" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/button9"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="volver"
         android:text="Volver" />
 </LinearLayout>

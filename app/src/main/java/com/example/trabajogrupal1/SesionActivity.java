@@ -6,16 +6,14 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class AgenteActivity extends AppCompatActivity {
+public class SesionActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_agente);
+        setContentView(R.layout.activity_sesion);
     }
 
-    public void volver(View view){startActivity(new Intent(this, RegistrosActivity.class));}
-    //hola
-
+    public void volverI(View view){startActivity(new Intent(this, RegistrosActivity.class));}
 
 }
