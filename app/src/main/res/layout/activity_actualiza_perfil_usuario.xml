@@ -5,7 +5,9 @@
     tools:context=".MainActivity"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true">
 
     <LinearLayout
         android:id="@+id/linearLayout2"
@@ -133,10 +135,10 @@
             android:layout_marginLeft="30dp"
             android:ems="10"
             android:inputType="textPersonName"
-            android:hint="Celular" />
+            android:hint="@string/celular" />
 
     </LinearLayout>
-    
+
     <LinearLayout
         android:id="@+id/linearLayout9"
         android:layout_width="match_parent"
@@ -181,12 +183,15 @@
         android:orientation="horizontal">
 
         <Button
+            android:id="@+id/button2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:drawableStart="@drawable/baseline_android_24"
             android:drawablePadding="4dp"
-            android:layout_gravity=""end|bottom"
+            android:layout_gravity="center_horizontal"
+            android:textAlignment="center"
             android:drawableTint="#ff0000"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
             android:text="Guardar" />
 
     </LinearLayout>
