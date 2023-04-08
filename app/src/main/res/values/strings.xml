@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">TrabajoGrupal1</string>
     <string name="celular">Celular</string>
+    <string name="guardar">Guardar</string>
 </resources>
