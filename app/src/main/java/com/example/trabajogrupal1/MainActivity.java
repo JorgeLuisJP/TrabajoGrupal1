@@ -15,4 +15,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void procesar(View view) {startActivity(new Intent(this, RegistrosActivity.class));}
+
+    //hola
 }
