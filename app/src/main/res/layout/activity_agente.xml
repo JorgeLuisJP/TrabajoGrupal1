@@ -1,9 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:orientation="vertical"
     tools:context=".AgenteActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/baseline_arrow_back_24" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:text="Registrar agente" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Numero de celular:" />
+
+    <EditText
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:ems="10"
+        android:hint="celular"
+        android:inputType="phone" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Contraseña:" />
+
+    <EditText
+        android:id="@+id/textView12"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:hint="contraseña"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registrar" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="volver"
+        android:text="Volver" />
+</LinearLayout>
